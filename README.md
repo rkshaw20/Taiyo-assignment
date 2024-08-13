@@ -36,3 +36,8 @@ It is a contact managment app with Covid data analytics built with ReactJs.
    ```bash
    git clone https://github.com/rkshaw20/Taiyo-assignment.git
 
+2. Navigate to the project directory:
+```bash
+  cd Taiyo-assignment
+
+
