@@ -37,7 +37,24 @@ It is a contact managment app with Covid data analytics built with ReactJs.
    git clone https://github.com/rkshaw20/Taiyo-assignment.git
 
 2. Navigate to the project directory:
-```bash
-  cd Taiyo-assignment
+   ```bash
+    cd Taiyo-assignment 
+3. Install the required dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm start
+5. Open your web browser and access the application at:
+   ```bash
+   http://localhost:3000
+
+## UI Preview  
+![Contact page](https://github.com/user-attachments/assets/68cb8a4a-c632-42bf-830b-5d32c0da774e)
+![Analytics page](https://github.com/user-attachments/assets/f7850709-c5a4-45ce-8a04-fb4d358f6323)
+
+
+
+
 
 
