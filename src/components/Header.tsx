@@ -1,13 +1,16 @@
 import { useState } from "react";
 import { IoIosMenu } from "react-icons/io";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <div className=" relative w-full flex justify-center items-center">
-      <div className="text-2xl font-bold">Header</div>
+      <div className="text-2xl font-bold">
+        {location.pathname === "/" ? "Contacts" : "Analytics"}
+      </div>
       <IoIosMenu
         className="absolute right-0 top-0 text-3xl block md:hidden"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
