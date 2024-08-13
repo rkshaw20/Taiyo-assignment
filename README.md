@@ -30,9 +30,9 @@ It is a contact managment app with Covid data analytics built with ReactJs.
 - **Country Specific data of cases:** https://disease.sh/v3/covid-19/countries
 - **Graph data for cases with date:** https://disease.sh/v3/covid-19/historical/all?lastdays=all
 
-  ## Installation
-  1. Clone this repository: `git clone https://github.com/rkshaw20/Twirlo.git`
-2. Navigate to the project directory: `cd Twirlo`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Access Twirlo in your web browser at: `http://localhost:3000`
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rkshaw20/Taiyo-assignment.git
+
