@@ -5,17 +5,12 @@ import { Link, useLocation } from "react-router-dom";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
-  const menuRef = useRef<HTMLDivElement>(null);
+  const menuRef = useRef<HTMLDivElement>(null); // for closing the menu when click outside of both
   const iconRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
-      if (
-        menuRef.current &&
-        !menuRef.current.contains(e.target as Node) &&
-        iconRef.current &&
-        !iconRef.current.contains(e.target as Node)
-      ) {
+      if (iconRef.current && !iconRef.current.contains(e.target as Node)) {
         setIsMenuOpen(false);
       }
     };
